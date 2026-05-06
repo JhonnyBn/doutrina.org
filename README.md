@@ -1,78 +1,54 @@
 # 💧 doutrina.org
 
-**Adaptação digital livre** dos cinco livros fundamentais da Doutrina Espírita codificados por Allan Kardec.
+**Uma adaptação digital livre** dos cinco livros fundamentais da Doutrina Espírita codificados por Allan Kardec.
 
-Uma edição enriquecida com links que abrem no painel complementar (artigos, definições, mapas e vídeos) sem sair da página, além de ferramentas de anotações pessoais.
-
----
-
-## 👔 Sobre o Projeto
-
-Este é um projeto **amador**, desenvolvido com respeito e dedicação às obras originais. Nosso objetivo é facilitar o estudo sério sem simplificar o conteúdo, ajudando o leitor a compreender melhor o texto original.
-
-- **Fiel ao espírito** da obra de Allan Kardec  
-- **Tecnologia a serviço** do estudo  
-- **Aberto e colaborativo**
+Uma plataforma que permite ler o texto original com links úteis que abrem diretamente no painel complementar (artigos, definições, mapas e vídeos), sem sair da página, e com espaço para anotações pessoais.
 
 ---
 
-## 🏗️ Estrutura do Projeto
+## Objetivo do Projeto
 
-| Pasta          | Função                                              |
-|----------------|-----------------------------------------------------|
-| `books/`       | Arquivos Markdown dos cinco livros                  |
-| `pages/`       | Páginas complementares (perfil, manual, etc.)       |
-| `assets/`      | CSS, JavaScript, imagens e GIFs                     |
-| `_includes/`   | Componentes reutilizáveis                           |
-| `_layouts/`    | Layouts principais do Jekyll                        |
+Facilitar o estudo sério e profundo da Doutrina Espírita, ajudando o leitor a **compreender melhor** o texto original, respeitando sua profundidade e sem simplificá-lo.
 
 ---
 
-## 🚀 Como Executar Localmente
+## Como Usar
 
-### Requisitos
-- Ruby + Bundler
-- Jekyll
-- Git
+1. Acesse **[doutrina.org](https://doutrina.org)**
+2. Escolha seu perfil na tela inicial
+3. Comece a ler qualquer um dos cinco livros
 
-### Passos
+Os links destacados no texto abrem automaticamente na coluna lateral com material complementar.
 
-```bash
-git clone https://github.com/sergioSHKLR/doutrina.org.git
-cd doutrina.org
-bundle install
-bundle exec jekyll serve
-```
+---
 
-## 🛠️ Como Contribuir
+## Como Contribuir
 
-Este é um projeto **amador** e precisa de ajuda profissional. Qualquer contribuição é muito bem-vinda, especialmente em:
+Este é um projeto **amador** e aberto. Contribuições são muito bem-vindas, especialmente de pessoas com experiência em:
 
-- Revisão de código e boas práticas
-- Melhoria e curadoria de links
-- Testes em diferentes dispositivos e navegadores
-- Sugestões de UX/UI e acessibilidade
+- Desenvolvimento web (Jekyll, CSS, JavaScript)
+- Revisão de conteúdo e links
+- Testes em diferentes dispositivos
+- Acessibilidade e UX
 - Traduções
-- Documentação
 
 **Para começar:**
-
-1. Leia o Guia Rápido
-2. Explore o site e identifique melhorias
-3. Abra uma Issue ou envie um Pull Request
+- Explore o site
+- Abra uma [Issue](https://github.com/sergioSHKLR/doutrina.org/issues) com sugestões ou problemas
+- Envie um Pull Request
 
 ---
 
-## 🏛️ Licenças e Direitos
+## Licenças e Direitos
 
-Este projeto é **sem fins lucrativos** e respeita os direitos autorais das obras originais.
+O projeto é **sem fins lucrativos** e respeita integralmente os direitos autorais das obras originais.
 
 Licenciado sob **Creative Commons BY-NC-SA 4.0**.
 
-Para questões legais, parcerias ou observações de instituições:
+Para contato institucional ou questões legais:
 
-[**E-mail**](sergio.shklr@gmail.com)
+**E-mail:** sergio.shklr@gmail.com
 
 ---
 
-**Obrigado pela visita!**  
+**Obrigado pela visita.**  
