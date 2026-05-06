@@ -42,6 +42,7 @@ git clone https://github.com/sergioSHKLR/doutrina.org.git
 cd doutrina.org
 bundle install
 bundle exec jekyll serve
+```
 
 ## 🛠️ Como Contribuir
 
