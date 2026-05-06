@@ -40,3 +40,9 @@ Futuramente, iremos nos concentrar na digitalização dos índices gerais de cad
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+<script type="application/json" class="js-hypothesis-config">
+{
+"openSidebar": false
+}
+</script>

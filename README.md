@@ -6,17 +6,18 @@
 TABELA DE CONTEÚDO
 
 - [🫱🏻‍🫲🏼 Bem-vindo](#-bem-vindo)
-   * [👔 Apresentação](#-apresentação)
-   * [🏗️ Estrutura](#-estrutura)
-   * [🥼 Voluntários](#-voluntários)
-   * [🎲 Clone Local (Windows)](#-clone-local-windows)
-      + [📌 Requisitos necessários](#-requisitos-necessários)
-         - [📥 Clonando o Repositório](#-clonando-o-repositório)
-         - [🔧 Instalando as Dependências](#-instalando-as-dependências)
-         - [🚀 Executando o Servidor Local](#-executando-o-servidor-local)
-         - [📌 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-         - [💎 Gems utilizadas:](#-gems-utilizadas)
-   * [🎲 Clone Local (Chromebook)](#-clone-local-chromebook)
+  - [👔 Apresentação](#-apresentação)
+  - [🏗️ Estrutura](#️-estrutura)
+  - [🥼 Voluntários](#-voluntários)
+  - [🎲 Clone Local (Windows)](#-clone-local-windows)
+    - [📌 Requisitos necessários](#-requisitos-necessários)
+        - [🔹 Verificar versões instaladas:](#-verificar-versões-instaladas)
+      - [📥 Clonando o Repositório](#-clonando-o-repositório)
+      - [🔧 Instalando as Dependências](#-instalando-as-dependências)
+      - [🚀 Executando o Servidor Local](#-executando-o-servidor-local)
+      - [📌 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+      - [💎 Gems utilizadas:](#-gems-utilizadas)
+  - [🎲 Clone Local (Chromebook)](#-clone-local-chromebook)
 
 <!-- TOC end -->
 
@@ -151,12 +152,6 @@ cd doutrina.org
 
 <!-- TOC --><a name="-instalando-as-dependências"></a>
 #### 🔧 Instalando as Dependências
-
-Remova o arquivo Gemfile.lock para evitar conflitos:
-
-```
-del Gemfile.lock
-```
 
 Instale as dependências:
 

@@ -278,6 +278,7 @@ Ao invés do tradicional livro, exclusivamente em preto e branco, utilizaremos e
 | 👉 (dedo indicando à direita) | segmento relacionado | indicação para leitura complementar |
 | ⚜️ (livros) | seção fiel ao original | |
 | 📚 (flor-de-lis) | seção com links | |
+
 <!--
 <table class="ff-slab fs-3 border">
  <thead class="bg-lg">
@@ -307,7 +308,7 @@ Nota de rodapé [^1]
 
 ## Ferramentas  
 
-### Anotador  
+### 1. Anotador  
 
 <p>Os botões no canto superior direito pertencem à ferramenta <a target="_blank" href="https://web-hypothes-is.translate.goog/everyone/?_x_tr_sl=es&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp">Hypothes.is</a> e realizam as seguintes funções:</p>
 
@@ -326,7 +327,7 @@ Nota de rodapé [^1]
 <tr><td class="center"><img src="../assets/images//hypo-c.svg" style="all: unset; width: 30px; vertical-align: middle; padding: 5px"></td><td>Criar nova anotação de página</td></tr>
 </table>
 
-### Ajustes  
+### 2. Ajustes  
 
 Para realizar ajustes tipográficos (letras, linhas, parágrafos, cor de fundo e links), clique no botão <kbd>Aa</kbd> e escolha dentre as opções abaixo. Suas preferências ficam gravadas e valem para as outras páginas deste site. Para reverter, clique no botão em vermelho e refresque a página.
 
@@ -399,6 +400,6 @@ Mostramos conteúdo proveniente de:
 
 <script type="application/json" class="js-hypothesis-config">
 {
-"openSidebar": true
+"openSidebar": false
 }
 </script>

@@ -23,7 +23,7 @@ version: 26.04.08
 >
 > [Princípios](Princípio){:.w} da [Doutrina Espírita](Espiritismo){:.l}
 >
-> Sobre a [imortalidade](imortal){:.d} da [alma](Alma){:.l}, a [natureza](natureza){:.d} dos Espíritos e suas relações com os [homens](Natureza_humana){:.w}, as leis [morais](Moral){:.w}, a [vida](Vida){:.w} presente, a vida futura e o [porvir](porvir){:.d} da humanidade — segundo os ensinos dados por Espíritos superiores com o concurso de diversos [médiuns](Mediunidade){:.l}, recebidos e coordenados
+> Sobre a [imortalidade](imortal){:.w} da [alma](Alma){:.l}, a [natureza](natureza){:.d} dos Espíritos e suas relações com os [homens](Humano){:.w}, as leis [morais](Moral){:.w}, a [vida](Vida){:.w} presente, a vida futura e o [porvir](porvir){:.d} da humanidade — segundo os ensinos dados por Espíritos superiores com o concurso de diversos [médiuns](Mediunidade){:.l}, recebidos e coordenados
 >
 > por <span style="font-family: 'Great Vibes'; font-size: 200%; text-align: right;"> 👴🏻 <a href="https://www.luzespirita.org.br/index.php?lisPage=enciclopedia&item=Allan%20Kardec">Allan Kardec</a></span>
 >

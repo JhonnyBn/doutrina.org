@@ -1,60 +1,77 @@
 ---
 title: Avisos legais
 layout: 0-default
-version: 26.04.07
+version: 26.04.30
 ---
 
-# <span class="emoji">⚖️</span> Avisos legais
+# ⚖️ Avisos legais
 
 *[LDE]: O Livro dos Espíritos
 *[LDM]: O Livro dos Médiuns
 *[ESE]: O Evangelho segundo o Espiritismo
 *[CEU]: O Céu e o Inferno
 *[GEN]: A Gênese
-*[PDF]: Portable Document Format
-*[MD]: Markdown file
-*[HTML]: Hyper Text Markup Language
 
 ## Monetário
 
-Nossos projetos não tem fins lucrativos ou de subsistência. Absolutamente nenhum ganho, compensação, troca, benefício, ou doação é solicitada, oferecida, feita, aceita, ou sub-entendida.
+Este é um projeto sem fins lucrativos. Não solicitamos, oferecemos, aceitamos ou subentendemos qualquer tipo de ganho, doação ou compensação.
 
-## Direitos
+## Direitos Autorais
 
-Não exercemos direitos sobre as obras originais (LDE, LDM, ESE, CEU, GEN, traduções da Bíblia, vídeos bíblicos, etc), suas traduções, ou derivativos que pertencem aos seus respectivos proprietários e/ou herdeiros.
+A Doutrina Espírita, codificada por Allan Kardec, apresenta-se sob o tríplice aspecto de **Ciência**, **Filosofia** e **Religião**.
+
+Seguindo o Art. 7º, § 3º da Lei nº 9.610/98, as ideias e princípios fundamentais não são passíveis de apropriação. Nosso trabalho consiste em oferecer uma plataforma digital que facilita o estudo, com melhorias de navegação, links internos, interface responsiva e ferramentas de leitura.
+
+- Nas citações bíblicas, substituímos a tradução francesa de Sacy pela versão **Almeida Revista e Corrigida (ARC)**, sempre indicando a fonte.
+- Ilustrações e diagramas são obtidos do **Wikimedia Commons**.
+- Vídeos são apenas links externos — não são hospedados neste site.
+
+Respeitamos os direitos autorais sobre a forma literária das traduções originais e incentivamos a consulta às edições oficiais da FEB ou de outros provedores.
+
+## Links Externos
+
+Os links da coluna principal têm finalidade educativa e remetem a:
+
+- 📔 definições de palavras do [Wikicionário](https://pt.m.wiktionary.org/)
+- 📰 artigos do [Wikipédia](https://pt.m.wikipedia.org/)
+- 📰 artigos do Portal [Luz Espírita](https://www.luzespirita.org.br/){:target="_blank"}
+- ✝️ passagens da bíblia ARC, pela SBB, via [Bible.com](https://www.bible.com/versions/212)
+
+Adicionalmente, conteúdo ilustrativo ou audio/visual de:
+
+- 🖼️ diagramas, ilustrações, ou pinturas representativas da [Wikimedia Commons](https://commons.wikimedia.org/){:target="ext"}  
+- 🗺️ mapas de [OpenStreetMap](https://www.openstreetmap.org/) via [Leaflet](https://leafletjs.com/){:target="ext"}   indicando locais citados
+- 🎬 vídeos da [Igreja de Jesus Cristo dos Santos dos Últimos Dias](https://www.churchofjesuschrist.org/?lang=por){:target="ext"}  
+- 🎬 vídeos do show de TV [Os Escolhidos](https://osescolhidos.tv/){:target="ext"}  
+- 🎬 vídeos do [Bible Project](https://bibleproject.com/portugues) (Brasil)
 
 ## Endossos
 
-O nome e/ou logotipo de instituições, grupos, organizações, ou sociedades não constituem aprovação ou endosso. Ademais, estas entidades não são responsáveis pela qualidade de nossos serviços e/ou produtos.
+Este projeto é independente. A menção a instituições ou organizações não implica endosso ou responsabilidade por parte delas.
 
-## Uso permitido
+## Licença
 
-Uma ofensa aos direitos autorais não se constitui desde que se limite o uso de acordo com o Artigo 46, Capítulo IV, [Lei Nº 9.610](https://www.planalto.gov.br/ccivil_03/leis/l9610.htm){:target="ext"}, de 19 de Fevereiro de 1998. Reproduzimos abaixo alguns trechos pertinentes.
+Nossa contribuição (layout, CSS, JavaScript, hierarquia, emojis, links internos e melhorias digitais) está licenciada sob **[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br)**.
 
-- Título II, Capítulo I, Art. 7º, § 3º – No domínio das ciências, a proteção recairá sobre a forma literária ou artística, não abrangendo o seu conteúdo científico ou técnico, sem prejuízo dos direitos que protegem os demais campos da propriedade imaterial.
+**Importante**: Esta licença aplica-se **exclusivamente** ao nosso trabalho de formatação e aprimoramento. Ela **não se estende** aos textos originais de Allan Kardec ou de outros autores.
 
-- Título III, Capítulo IV, Art. 46 – Não constitui ofensa aos direitos autorais:
+## Privacidade e Hosting
 
-    - I – a reprodução
+- A ferramenta de anotações é fornecida por **Hypothesis.is**. Consulte a [política de privacidade](https://web.hypothes.is/privacy/){:target="_blank"} deles.
+- Este site é hospedado pelo **GitHub Pages**. Consulte a [política de uso aceitável](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies){:target="_blank"}.
 
-    - III – a citação em livros, jornais, revistas ou qualquer outro meio de comunicação, de passagens de qualquer obra, para fins de estudo, crítica ou polêmica, na medida justificada para o fim a atingir, indicando-se o nome do autor e a origem da obra.
+---
 
-    - VIII - a reprodução, em quaisquer obras, de pequenos trechos de obras preexistentes, de qualquer natureza, ou de obra integral, quando de artes plásticas, sempre que a reprodução em si não seja o objetivo principal da obra nova e que não prejudique a exploração normal da obra reproduzida nem cause um prejuízo injustificado aos legítimos interesses dos autores.
-    
-    Ademais, de acordo com o Art. 48:
+**Contato**
 
-    - As obras situadas permanentemente em logradouros públicos* podem ser representadas livremente, por meio de pinturas, desenhos, fotografias e procedimentos audiovisuais.
-
-        * [LDE](http://www.febnet.org.br/wp-content/uploads/2012/07/WEB-Livro-dos-Espíritos-Guillon-1.pdf){:target="ext"}, 
-      [LDM](http://www.febnet.org.br/wp-content/uploads/2012/07/WEB-Livro-dos-Mediuns-Guillon-1.pdf){:target="ext"}, 
-      [ESE](http://www.febnet.org.br/wp-content/uploads/2012/07/WEB-O-Evangelho-segundo-o-Espiritismo-Guillon.pdf){:target="ext"}, 
-      [CEU](http://www.febnet.org.br/wp-content/uploads/2012/07/WEB-O-Ceu-e-o-inferno-Guillon.pdf){:target="ext"}, 
-      [GEN](http://www.febnet.org.br/wp-content/uploads/2012/07/WEB-A-Genese-Guillon.pdf){:target="ext"}
-
-## Licensa
-
-Nossos arquivos MD e seus respectivos variantes em HTML são licenciados sob [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt-br){:target="_blank"}. A licença aplica-se somente ao formato (diagramação, uso de emojis, tipografia, hierarquia, código mestre, etc) e NÃO ao conteúdo. Nosso código-fonte é livremente accessível, clique no link <kbd><a href="https://github.com/sergioSHKLR/doutrina.org" target="_blank" style="text-decoration: none;"><span class="emoji">📦</span>&nbsp;Repositório</a></kbd> do menu à esquerda.
+Estou à disposição para dialogar de forma amigável caso qualquer detentor de direitos deseje algum ajuste. Para comunicações de urgência ou de necessidade imediata, utilize o botão de chat. Utilize-se do formulário na página [❤️ Contato](5-contact.html) para assuntos de rotina.
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
+<script type="application/json" class="js-hypothesis-config">
+{
+"openSidebar": false
+}
+</script>

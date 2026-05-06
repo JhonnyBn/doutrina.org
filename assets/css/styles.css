@@ -4,7 +4,7 @@
 :root {
     --accent-color: hsl(208, 65%, 95%);
     --bground-color-grey: gray;
-    --body-bground: white;
+    --body-bground: #FFFBF7;
     --body-color: #222;
     --body-height: calc(100vh - 50px);
     --border-color-grey: #80808080;
@@ -20,12 +20,12 @@
     --button-width: 50px;
     --focus-bground: hsla(208, 65%, 95%, .25);
     --head-height: 50px;
-    --hypo-offset: 24px;
     --jesus-color: #B30000;
     --link-color: #0052A3;
     --sidebar-width: 300px;
     --vert-tools: whitesmoke;
     --label-color: #000;
+    --hypo-width: 452px;
 }
 
 /* VARIABLES END */
@@ -46,14 +46,14 @@ html {
 
 body {
     background-color: var(--body-bground);
-    color: var(--body-color);
-    font-family: sans-serif;
+    color: var(--body-color)
 }
 
 /* ELEMENTS END */
 /*------------------------------------------------*/
 
 /* FRAMEWORK DIVS START */
+
 #col1-head {
     background-color: var(--accent-color);
     border: none;
@@ -83,7 +83,6 @@ body {
 
 #col2-brand {
     background-color: transparent;
-    border: 1px solid blue;
     border-collapse: collapse;
     box-sizing: border-box;
     font-size: 24px;
@@ -103,7 +102,7 @@ body {
     border-right: 1px solid var(--border-color);
     box-sizing: border-box;
     height: var(--body-height);
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     line-height: 1.5;
     left: 0;
@@ -121,7 +120,7 @@ body {
 }
 
 #toc * {
-    font-family: monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
 #col2-head {
@@ -155,11 +154,11 @@ body {
 
 #col3-head {
     background-color: var(--accent-color);
-    border: none;
+    border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     /* box-shadow: 0 5px 3px -3px #00000030; */
     padding: 0 20px 0 10px;
-    right: 24px;
+    right: var(--hypo-offset);
     width: var(--column-width);
     z-index: 3;
     height: var(--head-height);
@@ -171,9 +170,66 @@ body {
     box-sizing: border-box;
     height: var(--body-height);
     position: fixed;
-    right: 24px;
+    right: var(--hypo-offset);
     top: var(--head-height);
     width: var(--column-width);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#col4 {
+    width: var(--hypo-width);
+    height: 100%;
+    background-color: #eee;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: scroll;
+    border-left: 1px solid var(--border-color);
+}
+
+#col4>details>summary {
+    margin: 0 20px 0 20px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border-color);
+    border-collapse: collapse;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 1.5px;
+    position: relative;
+    top: 6px;
+    text-indent: 0 !important;
+
+    /*
+    margin: 15px 35px 15px 15px;
+    font-family: sans-serif;
+    color: #555; */
+}
+
+#col4>details>p {
+    font-size: 14px;
+    margin: 15px 35px 15px 15px;
+    font-family: sans-serif;
+    color: #555;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--border-color)
+}
+
+#col4>a>img {
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 5px;
+    filter: grayscale(1);
+}
+
+#col4>a>img:hover {
+    filter: grayscale(0);
 }
 
 /* FRAMEWORK DIVS END */
@@ -213,9 +269,10 @@ body {
 a#col3-wiki-lnk,
 a#col3-dict-lnk,
 a#col3-maps-lnk,
-a#col3-vid-lnk {
+a#col3-vid-lnk,
+a#col3-back-nav {
     font-size: 24px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     text-align: center;
     vertical-align: middle;
     justify-content: center;
@@ -273,8 +330,8 @@ a#col3-vid-lnk {
 
 #col2-body a:any-link:hover {
     text-decoration-color: var(--link-color);
-    text-decoration: underline solid var(--link-color) 1px;
-    text-underline-offset: 3px;
+    text-decoration: underline solid var(--link-color) 1.5px;
+    text-underline-offset: 1.5px;
     text-decoration-skip-ink: auto;
 }
 
@@ -447,8 +504,8 @@ h4 {
 }
 
 h1:before {
-    color: #ddd9;
-    content: "h1 "
+    /* color: #ddd9; */
+    /* content: "h1 " */
 }
 
 h2,
@@ -461,23 +518,27 @@ h5 {
 }
 
 h2:before {
-    color: #ddd9;
-    content: "h2 "
+    /* color: #ddd9; */
+    content: "# "
+        /* content: "h2 " */
 }
 
 h3:before {
-    color: #ddd9;
-    content: "h3 "
+    /* color: #ddd9; */
+    content: "# "
+        /* content: "h3 " */
 }
 
 h4:before {
-    color: #ddd9;
-    content: "h4 "
+    /* color: #ddd9; */
+    content: "# "
+        /* content: "h4 " */
 }
 
 h5:before {
-    color: #ddd9;
-    content: "h5 "
+    /* color: #ddd9; */
+    content: "# "
+        /* content: "h5 " */
 }
 
 h6 {
@@ -489,8 +550,9 @@ h6 {
 }
 
 h6:before {
-    color: #ddd9;
-    content: "h6 "
+    /* color: #ddd9; */
+    content: "# "
+        /* content: "h6 " */
 }
 
 /* HEADINGS END */
@@ -518,6 +580,7 @@ details summary::before {
     vertical-align: middle;
     transition-duration: .15s;
     transition-property: all;
+    font-size: 110%;
 }
 
 details[open] summary::before {
@@ -527,6 +590,10 @@ details[open] summary::before {
     transform: rotate(45deg);
     transition-duration: .15s;
     transition-property: all;
+    position: relative;
+    top: -.5px;
+    font-size: 110%;
+    color: crimson;
 }
 
 details,
@@ -574,7 +641,7 @@ summary {
 }
 
 .ff-serif {
-    font-family: serif !important;
+    font-family: 'Roboto Serif', serif !important;
 }
 
 .ff-serif #col2-body>p>strong {
@@ -582,11 +649,11 @@ summary {
 }
 
 .ff-sans {
-    font-family: sans-serif !important
+    font-family: 'Inter', sans-serif !important
 }
 
 .ff-mono {
-    font-family: monospace !important
+    font-family: 'Roboto Mono', monospace !important
 }
 
 .lh-narrow {
@@ -647,7 +714,7 @@ button.tools {
 }
 
 .label {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
     justify-content: center;
     position: relative;
@@ -667,8 +734,8 @@ button.tools {
 /* DARK MODE START */
 
 .dark-mode {
-    --accent-color: hsl(208, 65%, 15%);
-    --body-bground: #222;
+    --accent-color: hsl(208, 35%, 20%);
+    --body-bground: #333;
     --body-color: #eee;
     --border-color: #ADADAD80;
     --bquote-bible-bground: hsl(302, 30%, 20%);
@@ -745,7 +812,7 @@ button.tools {
 }
 
 .dark-mode iframe {
-    filter: var(--iframe-filter)
+  filter: invert(87%) hue-rotate(180deg);
 }
 
 .dark-mode,
@@ -770,7 +837,7 @@ button.tools {
 @media (prefers-color-scheme: dark) {
 
     :root {
-        --accent-color: hsl(208, 65%, 15%);
+        --accent-color: hsl(208, 35%, 20%);
         --body-bground: #222;
         --body-color: #eee;
         --border-color: #ADADAD80;
@@ -802,7 +869,8 @@ button.tools {
 @media only screen and (max-width: 450px) {
 
     :root {
-        --column-width: calc(100vw - 24px);
+        --hypo-offset: 24px;
+        --column-width: calc(100vw - var(--hypo-offset));
     }
 
     #col1-head,
@@ -840,9 +908,14 @@ button.tools {
     #col3-head {
         padding-right: 30px
     }
+
+    #col4 {
+        display: none;
+    }
+
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 930px) {
 
     #col2-brand>span.label2 {
         display: none;
@@ -853,7 +926,8 @@ button.tools {
 @media only screen and (min-width:450px) and (max-width:750px) {
 
     :root {
-        --column-width: calc(100vw - 24px);
+        --hypo-offset: 24px;
+        --column-width: calc(100vw - var(--hypo-offset));
     }
 
     #col1-head,
@@ -878,12 +952,18 @@ button.tools {
         width: var(--column-width)
     }
 
+    #col4 {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (min-width:750px) and (max-width:1005px) {
 
     :root {
-        --column-width: calc((100vw - 24px) * .5);
+        --hypo-offset: 24px;
+        --column-width: calc((100vw - var(--hypo-offset)) * .5);
     }
 
     #col1-head,
@@ -912,12 +992,18 @@ button.tools {
     #col4-head {
         left: var(--column-width);
     }
+
+    #col4 {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width:1005px) and (max-width:1463px) {
 
     :root {
-        --column-width: calc((100vw - 24px) * .5);
+        --hypo-offset: 24px;
+        --column-width: calc((100vw - var(--hypo-offset)) * .5);
     }
 
     #col1-head,
@@ -944,12 +1030,17 @@ button.tools {
         width: var(--column-width)
     }
 
+    #col4 {
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width:1463px) and (max-width:1890px) {
 
     :root {
-        --column-width: calc((100vw - var(--hypo-offset)) * .5);
+        --hypo-offset: 452px;
+        --column-width: calc((100vw - var(--hypo-width)) * .5);
     }
 
     #col1-head,
@@ -964,6 +1055,11 @@ button.tools {
         left: 0
     }
 
+    #col2-body,
+    #col4-body {
+        padding: 0 15px
+    }
+
     #col2-head,
     #col2-body,
     #col3-head,
@@ -976,7 +1072,8 @@ button.tools {
 @media only screen and (min-width:1890px) {
 
     :root {
-        --column-width: calc((100vw - (var(--sidebar-width) + var(--hypo-offset) + var(--button-width))) * .5);
+        --hypo-offset: 452px;
+        --column-width: calc((100vw - (var(--sidebar-width) + var(--button-width) + var(--hypo-width))) * .5);
     }
 
     #col2-brand,
@@ -984,6 +1081,11 @@ button.tools {
     #col2-fs-btn,
     #col2-sha-btn {
         display: none
+    }
+
+    #col2-body,
+    #col4-body {
+        padding: 0 15px
     }
 
 }
@@ -1031,13 +1133,14 @@ details>div>p>a {
 #hypo {
     align-items: center;
     background-color: #fff;
+    opacity: 1;
     border-color: #dbdbdb;
     border-radius: .25rem;
     border-style: solid;
     border-width: 1px;
     box-shadow: 0 4px 3px -3px #00000030;
     box-sizing: border-box;
-    color: #666;
+    color: red;
     cursor: pointer;
     display: flex;
     font-family: inherit;
@@ -1047,7 +1150,7 @@ details>div>p>a {
     padding: 4px 3px 2px;
     position: absolute;
     right: 3px;
-    top: 120px;
+    top: 150px;
     vertical-align: middle;
     white-space: nowrap;
     width: 30px
@@ -1067,7 +1170,7 @@ strong {
 }
 
 .ff-mono {
-    font-family: monospace;
+    font-family: 'Roboto Mono'
 }
 
 .fr {
@@ -1095,10 +1198,9 @@ strong {
 }
 
 li.toc>a::before {
-    /*
-    content: "#" " "; */
+    content: "#" " ";
     font-weight: bold;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 
 li.toc {
@@ -1112,7 +1214,7 @@ li.toc {
     box-sizing: border-box;
     font-weight: 700;
     font-size: 16px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-bottom: 1.5px;
 }
 
@@ -1153,7 +1255,7 @@ div#alert {
     background-color: #f8b9c6;
     color: #000;
     font-size: 11px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     left: 0;
     padding: 2px;
     position: absolute;
@@ -1169,7 +1271,7 @@ kbd {
     border-radius: 3px;
     color: currentColor;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     padding: 3px;
     vertical-align: middle;
     white-space: nowrap
@@ -1177,7 +1279,7 @@ kbd {
 
 p.banner {
     color: currentColor;
-    font-family: sans-serif;
+    font-family: 'Inter';
     padding: 10px;
     text-align: center
 }
@@ -1196,7 +1298,9 @@ span.emoji,
 #toc>p>span.emoji,
 #toc>details>summary>span.emoji,
 #toc>details>p>span.emoji,
-#toc>details>p>a>span.emoji {
+#toc>details>p>a>span.emoji,
+#col2-body blockquote.spirit::first-letter,
+#col2-body blockquote.spirit-multi::first-letter {
     font-family: 'Noto Color Emoji', sans-serif;
 }
 
@@ -1206,7 +1310,7 @@ span.emoji,
     position: relative;
     top: -15px;
     color: #666;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .footnotes {
@@ -1226,7 +1330,7 @@ div.footnotes {
 }
 
 pre {
-    font-family: monospace
+    font-family: 'Roboto Mono', sans-serif;
 }
 
 a:focus,
@@ -1249,4 +1353,16 @@ button:focus {
 
 /* OTHERS END */
 
+/* solution from Fotie this will target only webkit based browsers */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    #vert-tools {
+        overflow-x: hidden; /* This will prevent horizontal scrolling on Safari */
+  }
+#vert-tools button {
+  padding: 0px; /* This will fix the issue with centering */
+  }
+}
+
 /*------------------------------------------------*/
+
