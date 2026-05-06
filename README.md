@@ -57,7 +57,7 @@ Este é um projeto **amador** e precisa de ajuda profissional. Qualquer contribu
 
 **Para começar:**
 
-1. Leia o [Guia Rápido para Leitores](./user.html)
+1. Leia o Guia Rápido
 2. Explore o site e identifique melhorias
 3. Abra uma Issue ou envie um Pull Request
 
@@ -76,4 +76,3 @@ Para questões legais, parcerias ou observações de instituições:
 ---
 
 **Obrigado pela visita!**  
-Que o estudo traga luz, compreensão e paz.
