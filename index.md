@@ -37,7 +37,7 @@ Entre em contato pelo GH
 repo doutrina.org ou doutrina-11ty
 
 ### Direitos autorais
-Autores, tradutores ou representantes: escreva para **sergio@doutrina.org**
+Autores, tradutores ou representantes: escreva para **sergio (at) shklr.org**
 
 Agradecemos a paciência. Em breve o novo site estará no ar!
 
