@@ -15,8 +15,8 @@ version: 24.2.11
 ### Voluntários
 Estamos migrando do Jekyll para Eleventy (11ty).  
 Qualquer ajuda é bem-vinda: revisão de textos, testes, sugestões.  
-Entre em contato pelo Gith
-repo doutrina.org ou doutrina-11ty
+Entre em contato pelo Github
+repo [doutrina.org](https://github.com/sergioSHKLR/doutrina.org) ou [doutrina-11ty](https://github.com/sergioSHKLR/doutrina-11ty)
 
 ### Direitos autorais
 Autores, tradutores ou representantes: escreva para **sergio (at) shklr.org**
